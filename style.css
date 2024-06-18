@@ -5,10 +5,14 @@ table, th, td {
   #animation {
     width: 100px;
     height: 100px;
-    background-color: red;
+    background-color: rgb(217, 255, 0);
     animation-name: example;
     animation-duration: 4s;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
+
   
   @keyframes example {
     0%   {background-color: red;}
